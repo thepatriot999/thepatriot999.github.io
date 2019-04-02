@@ -1,0 +1,110 @@
+html {
+  font-family: "Work Sans", sans-serif; }
+
+body {
+  margin: 0;
+  padding: 0;
+  padding-top: 20px;
+  background-color: #f3f3f3;
+  height: 100%; }
+
+ul li {
+  margin-top: 5px; }
+
+.page {
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  padding-bottom: 100px; }
+
+.header {
+  padding-bottom: 10px;
+  border-bottom: 2px solid black;
+  border-bottom-style: dashed;
+  position: relative; }
+  .header .profile-picture {
+    width: 200px;
+    display: inline-block; }
+    .header .profile-picture img {
+      height: 300px;
+      border-radius: 50%; }
+  .header .profile-info {
+    display: inline-block;
+    top: 0;
+    position: absolute;
+    text-align: left;
+    margin: 40px 0 0 20px; }
+    .header .profile-info .name {
+      /* font-family: Rockwell; */
+      font-size: 30pt;
+      letter-spacing: 3px;
+      margin-top: 60px; }
+    .header .profile-info .position {
+      /* font-family: "Goudy Old Style"; */
+      color: gray;
+      font-size: 17pt;
+      margin-top: 30px; }
+    .header .profile-info .additional-position {
+      font-size: 11pt;
+      margin: 0; }
+  .header .profile-links {
+    position: absolute;
+    right: 0;
+    top: 0; }
+    .header .profile-links .linkedin img {
+      width: 44px;
+      height: 35px; }
+    .header .profile-links .facebook img {
+      width: 36px;
+      height: 36px; }
+
+.details {
+  /* font-family: "Goudy Old Style"; */
+  margin-top: 20px; }
+  .details .detail-content {
+    display: inline-block; }
+    .details .detail-content .details-header {
+      font-size: 20pt;
+      letter-spacing: 2px; }
+    .details .detail-content .details-section .companies li {
+      margin-top: 5px; }
+    .details .detail-content .details-section .companies .section-name {
+      font-size: 15pt; }
+    .details .detail-content .details-section .section-sub-detail {
+      font-style: italic;
+      text-align: right; }
+  .details .expertise {
+    position: absolute; }
+    .details .expertise .details-section {
+      display: inline-block;
+      vertical-align: top;
+      width: 40%; }
+
+.language {
+  font-size: 9pt;
+  font-style: italic; }
+
+@media screen and (max-width: 600px) {
+  .page {
+    width: 100%; }
+
+  .details {
+    width: 90%;
+    margin: auto;
+    margin-top: 20px; }
+    .details .expertise .details-section {
+      display: block;
+      width: 100%; }
+
+  .header {
+    width: 100%;
+    margin: 0; }
+    .header .profile-picture {
+      margin: auto;
+      display: block; }
+    .header .profile-info {
+      display: block;
+      position: relative;
+      text-align: center; } }
+
+/*# sourceMappingURL=main.css.map */

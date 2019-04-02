@@ -1,0 +1,36 @@
+$mobile: 600px;
+
+@media screen and (max-width: $mobile) {
+	.page {
+		width: 100%;
+	}
+
+	.details {
+		width: 90%;
+		margin: auto;
+		margin-top: 20px;
+
+		.expertise {
+			.details-section {
+				display: block;
+				width: 100%;
+			}
+		}
+	}
+
+	.header {
+		width: 100%;
+		margin: 0;
+
+		.profile-picture {
+			margin: auto;
+			display: block;
+		}
+
+		.profile-info {
+			display: block;
+			position: relative;
+			text-align: center;
+		}
+	}
+}
