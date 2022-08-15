@@ -1,0 +1,22 @@
+{
+  "name": "thepatriot999.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "sass --watch ./sass_styles/:./stylesheets"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thepatriot999/thepatriot999.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thepatriot999/thepatriot999.github.io/issues"
+  },
+  "homepage": "https://github.com/thepatriot999/thepatriot999.github.io#readme",
+  "devDependencies": {
+    "sass": "^1.54.4"
+  }
+}
